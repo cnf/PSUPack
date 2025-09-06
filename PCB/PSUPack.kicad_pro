@@ -139,7 +139,7 @@
         "min_track_width": 0.16,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -485,14 +485,30 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "name": "I^{2}C",
+        "pcb_color": "rgb(0, 250, 255)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
       }
     ],
     "meta": {
       "version": 4
     },
-    "net_colors": null,
+    "net_colors": {
+      "+12V": "rgb(242, 255, 0)",
+      "+12VSB": "rgb(96, 255, 196)",
+      "+3.3V": "rgb(255, 142, 2)",
+      "GND": "rgb(10, 116, 0)"
+    },
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "I^{2}C",
+        "pattern": "((SDA)|(SCL))"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -506,7 +522,7 @@
       "svg": "",
       "vrml": ""
     },
-    "page_layout_descr_file": ""
+    "page_layout_descr_file": "kicad-embed://nullsense.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,
@@ -609,7 +625,7 @@
       "version": 1
     },
     "net_format_name": "",
-    "page_layout_descr_file": "",
+    "page_layout_descr_file": "kicad-embed://nullsense.kicad_wks",
     "plot_directory": "",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
@@ -627,5 +643,9 @@
       "Root"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {
+    "ATTRIBUTION": "by Frank",
+    "PCB_NAME": "DPS-1200FB Breakout",
+    "SCHEMATIC_VERSION": "A"
+  }
 }
