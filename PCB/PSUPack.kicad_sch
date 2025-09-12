@@ -5980,7 +5980,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Conn_Plug_2P"
+		(property "Value" "XT60"
 			(at 267.97 31.7499 0)
 			(effects
 				(font
@@ -5998,7 +5998,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://docs.rs-online.com/4610/A700000008956683.pdf"
 			(at 259.08 30.48 0)
 			(effects
 				(font
@@ -6050,7 +6050,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Conn_Plug_2P"
+		(property "Value" "XT60"
 			(at 267.97 123.1899 0)
 			(effects
 				(font
@@ -6068,7 +6068,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://docs.rs-online.com/4610/A700000008956683.pdf"
 			(at 259.08 121.92 0)
 			(effects
 				(font
@@ -6120,7 +6120,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Conn_Plug_2P"
+		(property "Value" "XT60"
 			(at 267.97 69.8499 0)
 			(effects
 				(font
@@ -6138,7 +6138,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://docs.rs-online.com/4610/A700000008956683.pdf"
 			(at 259.08 68.58 0)
 			(effects
 				(font
@@ -6181,7 +6181,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "18d61f93-aa5e-4f96-96a3-a93fe29f20e5")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR010"
 			(at 77.47 191.77 0)
 			(effects
 				(font
@@ -6231,7 +6231,7 @@
 		(instances
 			(project "PSU-Back"
 				(path "/98920556-c6c8-42aa-aa1d-1c46b768deff"
-					(reference "#PWR019")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -6247,7 +6247,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a167a33-2ada-45c8-9ca9-02e6c71fa38e")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR021"
 			(at 187.96 135.89 0)
 			(effects
 				(font
@@ -6298,7 +6298,7 @@
 		(instances
 			(project "PSU-Back"
 				(path "/98920556-c6c8-42aa-aa1d-1c46b768deff"
-					(reference "#PWR024")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -6314,7 +6314,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a5c8dd9-0dd6-482a-a1f5-60dff6f3783c")
-		(property "Reference" "R3"
+		(property "Reference" "R1"
 			(at 46.99 72.39 90)
 			(effects
 				(font
@@ -6366,7 +6366,7 @@
 		(instances
 			(project "PSU-Back"
 				(path "/98920556-c6c8-42aa-aa1d-1c46b768deff"
-					(reference "R3")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -6382,7 +6382,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "26a81255-ec60-475e-b187-0a9606a7799d")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR035"
 			(at 252.73 99.06 0)
 			(effects
 				(font
@@ -6433,7 +6433,7 @@
 		(instances
 			(project "PSU-Back"
 				(path "/98920556-c6c8-42aa-aa1d-1c46b768deff"
-					(reference "#PWR036")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -6449,7 +6449,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2aab168c-8c01-4d82-bcde-822fbdeee26a")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR09"
 			(at 77.47 184.15 0)
 			(effects
 				(font
@@ -6499,7 +6499,7 @@
 		(instances
 			(project "PSU-Back"
 				(path "/98920556-c6c8-42aa-aa1d-1c46b768deff"
-					(reference "#PWR018")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -6515,7 +6515,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "37c72b7e-b342-4866-985f-fdcaaebd1dec")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR024"
 			(at 215.9 101.6 0)
 			(effects
 				(font
@@ -6566,7 +6566,7 @@
 		(instances
 			(project ""
 				(path "/98920556-c6c8-42aa-aa1d-1c46b768deff"
-					(reference "#PWR027")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -6582,7 +6582,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3bd361ba-e598-4894-a210-de74aeb1b712")
-		(property "Reference" "R5"
+		(property "Reference" "R3"
 			(at 139.7 128.27 90)
 			(effects
 				(font
@@ -6616,7 +6616,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "Current Limit Resistor"
 			(at 139.7 133.35 0)
 			(effects
 				(font
@@ -6634,7 +6634,7 @@
 		(instances
 			(project "PSU-Back"
 				(path "/98920556-c6c8-42aa-aa1d-1c46b768deff"
-					(reference "R5")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -6650,7 +6650,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e08973e-ee38-4141-90f6-883866cc9032")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR014"
 			(at 139.7 72.39 0)
 			(effects
 				(font
@@ -6700,7 +6700,7 @@
 		(instances
 			(project "PSU-Back"
 				(path "/98920556-c6c8-42aa-aa1d-1c46b768deff"
-					(reference "#PWR011")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -6716,7 +6716,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "409bb037-7c4b-4948-8ce6-f42be0355719")
-		(property "Reference" "R2"
+		(property "Reference" "R5"
 			(at 165.1 177.7999 0)
 			(effects
 				(font
@@ -6752,7 +6752,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "Pullup Resistor"
 			(at 162.56 179.07 0)
 			(effects
 				(font
@@ -6770,7 +6770,7 @@
 		(instances
 			(project "PSU-Back"
 				(path "/98920556-c6c8-42aa-aa1d-1c46b768deff"
-					(reference "R2")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -6786,7 +6786,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "46d60248-4894-4b2d-a13b-42fa6667fd13")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR011"
 			(at 123.19 121.92 0)
 			(effects
 				(font
@@ -6837,7 +6837,7 @@
 		(instances
 			(project "PSU-Back"
 				(path "/98920556-c6c8-42aa-aa1d-1c46b768deff"
-					(reference "#PWR07")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -6853,7 +6853,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a09e525-9339-4bd0-92c9-3c764f6e6c01")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR033"
 			(at 252.73 81.28 0)
 			(effects
 				(font
@@ -6904,7 +6904,7 @@
 		(instances
 			(project "PSU-Back"
 				(path "/98920556-c6c8-42aa-aa1d-1c46b768deff"
-					(reference "#PWR034")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -6920,7 +6920,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ed1e26b-bcf2-4a7e-b677-0c34c4fe0c19")
-		(property "Reference" "U4"
+		(property "Reference" "U2"
 			(at 52.07 170.18 0)
 			(effects
 				(font
@@ -6981,7 +6981,7 @@
 		(instances
 			(project ""
 				(path "/98920556-c6c8-42aa-aa1d-1c46b768deff"
-					(reference "U4")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -6997,7 +6997,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "555fdc41-0dc0-4df3-b868-f02f49434989")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR018"
 			(at 185.42 66.04 0)
 			(effects
 				(font
@@ -7048,7 +7048,7 @@
 		(instances
 			(project "PSU-Back"
 				(path "/98920556-c6c8-42aa-aa1d-1c46b768deff"
-					(reference "#PWR021")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -7064,7 +7064,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d9b275e-6242-4a57-aa5d-0e78afb70f4b")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR016"
 			(at 162.56 180.34 0)
 			(effects
 				(font
@@ -7114,7 +7114,7 @@
 		(instances
 			(project "PSU-Back"
 				(path "/98920556-c6c8-42aa-aa1d-1c46b768deff"
-					(reference "#PWR05")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -7130,7 +7130,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e111e5b-492a-44f2-9e81-8a22d8694eac")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR08"
 			(at 62.23 190.5 0)
 			(effects
 				(font
@@ -7180,7 +7180,7 @@
 		(instances
 			(project "PSU-Back"
 				(path "/98920556-c6c8-42aa-aa1d-1c46b768deff"
-					(reference "#PWR040")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -7196,7 +7196,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63b5f6f7-4d85-437a-979d-231773240033")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR01"
 			(at 45.72 176.53 0)
 			(effects
 				(font
@@ -7247,7 +7247,7 @@
 		(instances
 			(project "PSU-Back"
 				(path "/98920556-c6c8-42aa-aa1d-1c46b768deff"
-					(reference "#PWR09")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -7263,7 +7263,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e0bbc28-47a7-4ef7-90dc-856f5f86fcbe")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR04"
 			(at 52.07 193.04 0)
 			(effects
 				(font
@@ -7313,7 +7313,7 @@
 		(instances
 			(project "PSU-Back"
 				(path "/98920556-c6c8-42aa-aa1d-1c46b768deff"
-					(reference "#PWR015")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -7396,7 +7396,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "79072f4c-3496-41f1-be7d-7af606f570a3")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR020"
 			(at 198.12 133.35 0)
 			(effects
 				(font
@@ -7447,7 +7447,7 @@
 		(instances
 			(project "PSU-Back"
 				(path "/98920556-c6c8-42aa-aa1d-1c46b768deff"
-					(reference "#PWR023")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -7462,7 +7462,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7a2e16b4-3305-4ff7-8eee-a3050ac8708c")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR039"
 			(at 252.73 134.62 0)
 			(effects
 				(font
@@ -7513,7 +7513,7 @@
 		(instances
 			(project "PSU-Back"
 				(path "/98920556-c6c8-42aa-aa1d-1c46b768deff"
-					(reference "#PWR016")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -7529,7 +7529,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7a5a8f63-4a37-442e-aace-0b3af3e29075")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR031"
 			(at 252.73 63.5 0)
 			(effects
 				(font
@@ -7580,7 +7580,7 @@
 		(instances
 			(project "PSU-Back"
 				(path "/98920556-c6c8-42aa-aa1d-1c46b768deff"
-					(reference "#PWR032")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -7704,7 +7704,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e4a3968-09d1-4ad7-87b4-2fe5a3cc54b5")
-		(property "Reference" "R1"
+		(property "Reference" "R4"
 			(at 153.67 177.7999 0)
 			(effects
 				(font
@@ -7740,7 +7740,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "Pullup Resistor"
 			(at 156.21 179.07 0)
 			(effects
 				(font
@@ -7758,7 +7758,7 @@
 		(instances
 			(project "PSU-Back"
 				(path "/98920556-c6c8-42aa-aa1d-1c46b768deff"
-					(reference "R1")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -7845,7 +7845,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "80ecd316-e32e-4e8f-8657-3128c46ef060")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR05"
 			(at 68.58 74.93 0)
 			(effects
 				(font
@@ -7896,7 +7896,7 @@
 		(instances
 			(project "PSU-Back"
 				(path "/98920556-c6c8-42aa-aa1d-1c46b768deff"
-					(reference "#PWR04")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -7921,7 +7921,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Conn_Plug_2P"
+		(property "Value" "XT60"
 			(at 267.97 50.7999 0)
 			(effects
 				(font
@@ -7939,7 +7939,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://docs.rs-online.com/4610/A700000008956683.pdf"
 			(at 259.08 49.53 0)
 			(effects
 				(font
@@ -7982,7 +7982,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "856c0004-c83c-4349-8385-e24aadb3f672")
-		(property "Reference" "J1"
+		(property "Reference" "J3"
 			(at 227.33 142.2399 0)
 			(effects
 				(font
@@ -8042,7 +8042,7 @@
 		(instances
 			(project ""
 				(path "/98920556-c6c8-42aa-aa1d-1c46b768deff"
-					(reference "J1")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -8052,13 +8052,13 @@
 		(lib_id "Connector:Conn_Plug_2P")
 		(at 259.08 139.7 180)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "879737c4-0d5e-4887-93db-31724a19dbd5")
-		(property "Reference" "P99"
+		(property "Reference" "P7"
 			(at 267.97 138.4299 0)
 			(effects
 				(font
@@ -8112,7 +8112,7 @@
 		(instances
 			(project "PSU-Back"
 				(path "/98920556-c6c8-42aa-aa1d-1c46b768deff"
-					(reference "P99")
+					(reference "P7")
 					(unit 1)
 				)
 			)
@@ -8128,7 +8128,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a58041c-fa1d-4eca-bfa9-4ce2ae7433fd")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR023"
 			(at 226.06 66.04 0)
 			(effects
 				(font
@@ -8179,7 +8179,7 @@
 		(instances
 			(project "PSU-Back"
 				(path "/98920556-c6c8-42aa-aa1d-1c46b768deff"
-					(reference "#PWR026")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -8195,7 +8195,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e49970f-07ce-4b02-acd0-b2c4f48af3d1")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR022"
 			(at 219.71 36.83 0)
 			(effects
 				(font
@@ -8245,7 +8245,7 @@
 		(instances
 			(project "PSU-Back"
 				(path "/98920556-c6c8-42aa-aa1d-1c46b768deff"
-					(reference "#PWR025")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -8270,7 +8270,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Conn_Plug_2P"
+		(property "Value" "XT60"
 			(at 267.97 105.4099 0)
 			(effects
 				(font
@@ -8288,7 +8288,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://docs.rs-online.com/4610/A700000008956683.pdf"
 			(at 259.08 104.14 0)
 			(effects
 				(font
@@ -8331,7 +8331,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "951d4d38-8462-47ff-baf5-b785fd1e1f04")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR07"
 			(at 58.42 176.53 0)
 			(effects
 				(font
@@ -8382,7 +8382,7 @@
 		(instances
 			(project "PSU-Back"
 				(path "/98920556-c6c8-42aa-aa1d-1c46b768deff"
-					(reference "#PWR014")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -8398,7 +8398,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "957022f2-3e62-4f4e-834f-48a238b95dc6")
-		(property "Reference" "C2"
+		(property "Reference" "C1"
 			(at 64.77 180.3462 0)
 			(effects
 				(font
@@ -8434,7 +8434,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "Capacitor"
 			(at 62.23 181.61 0)
 			(effects
 				(font
@@ -8452,7 +8452,7 @@
 		(instances
 			(project "PSU-Back"
 				(path "/98920556-c6c8-42aa-aa1d-1c46b768deff"
-					(reference "C2")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -8468,7 +8468,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a17652e-48a7-4530-a979-0d1289396e3a")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR027"
 			(at 252.73 25.4 0)
 			(effects
 				(font
@@ -8519,7 +8519,7 @@
 		(instances
 			(project "PSU-Back"
 				(path "/98920556-c6c8-42aa-aa1d-1c46b768deff"
-					(reference "#PWR028")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -8536,7 +8536,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "9bda2d89-475d-4396-8780-f568a72c4172")
-		(property "Reference" "J5"
+		(property "Reference" "J1"
 			(at 199.39 127 0)
 			(effects
 				(font
@@ -8606,7 +8606,7 @@
 		(instances
 			(project ""
 				(path "/98920556-c6c8-42aa-aa1d-1c46b768deff"
-					(reference "J5")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -8621,7 +8621,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ae7ac4e1-8eb8-4ce9-b108-e336691b71b8")
-		(property "Reference" "J4"
+		(property "Reference" "J2"
 			(at 205.74 26.67 0)
 			(effects
 				(font
@@ -8646,7 +8646,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/power/pwr_powercardedge.pdf"
 			(at 199.39 71.12 0)
 			(effects
 				(font
@@ -8859,7 +8859,7 @@
 		(instances
 			(project ""
 				(path "/98920556-c6c8-42aa-aa1d-1c46b768deff"
-					(reference "J4")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -8874,7 +8874,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b650b1a0-1693-4ff8-807d-d8d53f677af3")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR038"
 			(at 242.57 127 0)
 			(effects
 				(font
@@ -8925,7 +8925,7 @@
 		(instances
 			(project "PSU-Back"
 				(path "/98920556-c6c8-42aa-aa1d-1c46b768deff"
-					(reference "#PWR039")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -8941,7 +8941,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b97d7cc7-687f-4583-b7b3-fdf09b99d834")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR017"
 			(at 191.77 36.83 0)
 			(effects
 				(font
@@ -8991,7 +8991,7 @@
 		(instances
 			(project "PSU-Back"
 				(path "/98920556-c6c8-42aa-aa1d-1c46b768deff"
-					(reference "#PWR020")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -9007,7 +9007,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bd65a359-e9f1-4057-b915-4fe6997e154f")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR015"
 			(at 156.21 180.34 0)
 			(effects
 				(font
@@ -9057,7 +9057,7 @@
 		(instances
 			(project "PSU-Back"
 				(path "/98920556-c6c8-42aa-aa1d-1c46b768deff"
-					(reference "#PWR02")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -9073,7 +9073,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c0689ee1-7950-450b-a50c-d1214c8a52c5")
-		(property "Reference" "R4"
+		(property "Reference" "R2"
 			(at 139.7 116.84 90)
 			(effects
 				(font
@@ -9107,7 +9107,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "Current Limit Resistor"
 			(at 139.7 121.92 0)
 			(effects
 				(font
@@ -9125,7 +9125,7 @@
 		(instances
 			(project "PSU-Back"
 				(path "/98920556-c6c8-42aa-aa1d-1c46b768deff"
-					(reference "R4")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -9140,7 +9140,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c29567bc-fc99-4771-9715-80da316d03ed")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR037"
 			(at 252.73 116.84 0)
 			(effects
 				(font
@@ -9191,7 +9191,7 @@
 		(instances
 			(project "PSU-Back"
 				(path "/98920556-c6c8-42aa-aa1d-1c46b768deff"
-					(reference "#PWR038")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -9215,7 +9215,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "Green LED"
 			(at 131.7625 118.11 0)
 			(effects
 				(font
@@ -9232,7 +9232,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "LG R971-KN-1-0-20-R18"
 			(at 133.35 121.92 0)
 			(effects
 				(font
@@ -9284,7 +9284,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c3643d30-7ce1-4691-b07f-c912d985acae")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR019"
 			(at 185.42 106.68 0)
 			(effects
 				(font
@@ -9335,7 +9335,7 @@
 		(instances
 			(project "PSU-Back"
 				(path "/98920556-c6c8-42aa-aa1d-1c46b768deff"
-					(reference "#PWR022")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -9351,7 +9351,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c91545b2-71bb-433f-87b3-94e5d6fcdbed")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR030"
 			(at 242.57 54.61 0)
 			(effects
 				(font
@@ -9402,7 +9402,7 @@
 		(instances
 			(project "PSU-Back"
 				(path "/98920556-c6c8-42aa-aa1d-1c46b768deff"
-					(reference "#PWR031")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -9427,7 +9427,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "OLED 128x32"
+		(property "Value" "ssd1306 OLED 128x32"
 			(at 57.15 40.6399 0)
 			(effects
 				(font
@@ -9445,7 +9445,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/SSD1306.pdf"
 			(at 54.61 38.1 0)
 			(effects
 				(font
@@ -9494,7 +9494,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cbc5161a-74bc-4839-92af-1e0b9ad734be")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR02"
 			(at 43.18 35.56 0)
 			(effects
 				(font
@@ -9545,7 +9545,7 @@
 		(instances
 			(project "PSU-Back"
 				(path "/98920556-c6c8-42aa-aa1d-1c46b768deff"
-					(reference "#PWR03")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -9561,7 +9561,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce66c28c-b507-49a4-9b99-0bf8bfa4ebbf")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR028"
 			(at 242.57 35.56 0)
 			(effects
 				(font
@@ -9612,7 +9612,7 @@
 		(instances
 			(project "PSU-Back"
 				(path "/98920556-c6c8-42aa-aa1d-1c46b768deff"
-					(reference "#PWR029")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -9628,7 +9628,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d3bbfee6-9065-4dcd-b981-5bbf1cb8f5b2")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR012"
 			(at 123.19 133.35 0)
 			(effects
 				(font
@@ -9679,7 +9679,7 @@
 		(instances
 			(project "PSU-Back"
 				(path "/98920556-c6c8-42aa-aa1d-1c46b768deff"
-					(reference "#PWR08")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -9695,7 +9695,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d6054d63-a43a-43e2-9f97-13cd4c97d24e")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR013"
 			(at 139.7 34.29 0)
 			(effects
 				(font
@@ -9745,7 +9745,7 @@
 		(instances
 			(project "PSU-Back"
 				(path "/98920556-c6c8-42aa-aa1d-1c46b768deff"
-					(reference "#PWR010")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -9761,7 +9761,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d8142a90-99b1-481c-a04c-f5be2a7b4b91")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR034"
 			(at 242.57 91.44 0)
 			(effects
 				(font
@@ -9812,7 +9812,7 @@
 		(instances
 			(project "PSU-Back"
 				(path "/98920556-c6c8-42aa-aa1d-1c46b768deff"
-					(reference "#PWR035")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -9828,7 +9828,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db5b647b-ac18-4732-9793-c71496b5a17a")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR036"
 			(at 242.57 109.22 0)
 			(effects
 				(font
@@ -9879,7 +9879,7 @@
 		(instances
 			(project "PSU-Back"
 				(path "/98920556-c6c8-42aa-aa1d-1c46b768deff"
-					(reference "#PWR037")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -9895,7 +9895,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df8f9b74-b21d-4236-8d90-7476e89d6926")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR029"
 			(at 252.73 44.45 0)
 			(effects
 				(font
@@ -9946,7 +9946,7 @@
 		(instances
 			(project "PSU-Back"
 				(path "/98920556-c6c8-42aa-aa1d-1c46b768deff"
-					(reference "#PWR030")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -9971,7 +9971,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Conn_Plug_2P"
+		(property "Value" "XT60"
 			(at 267.97 87.6299 0)
 			(effects
 				(font
@@ -9989,7 +9989,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://docs.rs-online.com/4610/A700000008956683.pdf"
 			(at 259.08 86.36 0)
 			(effects
 				(font
@@ -10032,7 +10032,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e6fa6c85-8135-413f-af03-2ac7b971f001")
-		(property "Reference" "C1"
+		(property "Reference" "C2"
 			(at 80.01 181.6162 0)
 			(effects
 				(font
@@ -10068,7 +10068,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "Decoupling Capacitor"
 			(at 77.47 182.88 0)
 			(effects
 				(font
@@ -10086,7 +10086,7 @@
 		(instances
 			(project ""
 				(path "/98920556-c6c8-42aa-aa1d-1c46b768deff"
-					(reference "C1")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -10102,7 +10102,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ef8151d3-debb-46ee-96d0-375c5c199b23")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR03"
 			(at 53.34 38.1 0)
 			(effects
 				(font
@@ -10153,7 +10153,7 @@
 		(instances
 			(project "PSU-Back"
 				(path "/98920556-c6c8-42aa-aa1d-1c46b768deff"
-					(reference "#PWR01")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -10168,7 +10168,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "efd46293-58da-4d31-8d97-2a490edec731")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR040"
 			(at 242.57 144.78 0)
 			(effects
 				(font
@@ -10219,7 +10219,7 @@
 		(instances
 			(project "PSU-Back"
 				(path "/98920556-c6c8-42aa-aa1d-1c46b768deff"
-					(reference "#PWR017")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -10235,7 +10235,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f1a3dfa7-6e52-41dd-97e7-7a80363ed9ae")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR025"
 			(at 213.36 139.7 0)
 			(effects
 				(font
@@ -10286,7 +10286,7 @@
 		(instances
 			(project "PSU-Back"
 				(path "/98920556-c6c8-42aa-aa1d-1c46b768deff"
-					(reference "#PWR012")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -10302,7 +10302,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f356b251-921f-4b23-860c-d8465fd2b6c7")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR032"
 			(at 242.57 73.66 0)
 			(effects
 				(font
@@ -10353,7 +10353,7 @@
 		(instances
 			(project "PSU-Back"
 				(path "/98920556-c6c8-42aa-aa1d-1c46b768deff"
-					(reference "#PWR033")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -10369,7 +10369,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fcb754b4-3e1d-4640-babc-4d5eb619ebcc")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR026"
 			(at 223.52 142.24 0)
 			(effects
 				(font
@@ -10420,7 +10420,7 @@
 		(instances
 			(project "PSU-Back"
 				(path "/98920556-c6c8-42aa-aa1d-1c46b768deff"
-					(reference "#PWR013")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -10444,7 +10444,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "Red LED"
 			(at 131.7625 129.54 0)
 			(effects
 				(font
@@ -10461,7 +10461,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "LS R976-NR-1-0-20-R18"
 			(at 133.35 133.35 0)
 			(effects
 				(font
